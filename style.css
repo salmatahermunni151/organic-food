@@ -94,7 +94,7 @@
     gap: 60px;
     margin-top: 50px;
 }
-button{
+.banner-btn{
     background-color: rgb(7, 156, 7);
     color: #fff;
     padding: 8px 20px;
@@ -116,3 +116,119 @@ button{
     width: 530px;
     height: 530px;
 }
+/* Discount section code start here */
+.sec-1{
+    margin: 40px 0;
+}
+.discount-container{
+    background-color: rgb(168, 212, 78);
+    color: white;
+}
+.discount-parent{
+    display: flex;
+    gap: 80px;
+}
+.discount-items{
+    display: flex;
+    align-items: center;
+}
+.discount-img img{
+    width: 70px;
+}
+/* Choose section code start here */
+.sec-2{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.choose-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(180, 177, 177);
+    padding-bottom: 50px;
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Choose items-1 code start here  */
+.choose-items-1 h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.choose-items-1 h2{
+    font-size: 39px;
+    color: rgb(39, 39, 39);
+}
+/* Choose items-2 code start here  */
+.choose-items-2 p{
+    font-size: 15px;
+    font-weight: 600;
+    width: 700px;
+    color: gray;
+}
+ /* start card code */
+ .card-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    width: 1200px;
+    margin: 50px auto;
+    gap: 62px;
+ }
+ .card-items i{
+    background-color: rgb(175, 173, 173);
+    padding: 10px;
+    color: rgb(7, 168, 7);
+    font-size: 18px;
+    border-radius: 50%;
+ }
+ .card-items h2{
+    margin: 17px 0;
+    color: rgb(39, 39, 39);
+ }
+ .card-items p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(56, 56, 56);
+ }
+ /* end card code */
+/* start img code */
+.img-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 60px;
+    margin-top: 60px;
+}
+.img-items{
+    position: relative;
+    transition: 0.5s;
+}
+.img-items img{
+    width: 360px;
+    border-radius: 20px;
+}
+.img-text{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+.img-text h5{
+    font-size: 16px;
+    color: #fff;
+}
+.img-text h3{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+    margin: 2px 0 13px 0;
+}
+.img-btn{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 9px 28px;
+    border-radius: 30px;
+}
+/* end img code */
