@@ -4,3 +4,115 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+/* navbar code start here */
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: antiquewhite;
+    background-color: rgb(11, 143, 11);
+    padding: 10px 60px;
+}
+/* logo code start here  */
+.logo h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+}
+.nav-items ul{
+    display: flex;
+}
+.nav-items li{
+    list-style: none;
+    margin-left: 9px;
+}
+.nav-items i{
+    font-size: 11px;
+    margin-left: 5px;
+}
+/* nav icon div start here */
+.nav-text-icon-parent{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.nav-text-icon-parent h4{
+    font-size: 14px;
+}
+.nav-icon{
+    display: flex;
+}
+.nav-icon i{
+    color: #fff;
+    background-color: rgb(2, 94, 2);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.nav-icon i:hover{
+    background-color: yellow;
+    color: green;
+}
+/* banner code start here  */
+.banner-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    margin-top: 30px;
+}
+.banner-text{
+    width: 460px;
+}
+.banner-text h4{
+    font-size: 22px;
+    color: rgb(19, 19, 19);
+}
+.banner-text h1{
+    font-size: 43px;
+    font-weight: 800;
+    color: rgb(29, 29, 29);
+}
+.mini-img img{
+    width: 80px;
+}
+.mini-img-2 img{
+    width: 150px;
+}
+.banner-text p{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(68, 68, 68);
+    margin: 24px 0;
+}
+/* button and text parent code start here */
+.button-text-parent{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+button{
+    background-color: rgb(7, 156, 7);
+    color: #fff;
+    padding: 8px 20px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-right: 50px;
+}
+.button-text-items h2{
+    font-size: 30px;
+    color: rgb(39, 39, 39);
+}
+.button-text-items h5{
+    font-size: 14px;
+    color: rgb(124, 124, 124);
+}
+/* banner img start here */
+.banner-img img{
+    width: 530px;
+    height: 530px;
+}
