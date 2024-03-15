@@ -60,7 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 0 80px;
     margin-top: 30px;
 }
 .banner-text{
@@ -146,7 +146,7 @@
     align-items: center;
     border-bottom: 1px solid rgb(180, 177, 177);
     padding-bottom: 50px;
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto;
 }
 /* Choose items-1 code start here  */
@@ -170,9 +170,9 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
-    width: 1200px;
+    width: 1170px;
     margin: 50px auto;
-    gap: 62px;
+    gap: 42px;
  }
  .card-items i{
     background-color: rgb(175, 173, 173);
@@ -195,17 +195,17 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
-    width: 1200px;
+    width: 1160px;
     margin: 0 auto;
     margin-top: 60px;
-    gap: 75px;
+    gap: 35px;
 }
 .img-items{
     position: relative;
     transition: 0.5s;
 }
 .img-items img{
-    width: 350px;
+    width: 310px;
     border-radius: 20px;
 }
 .img-text{
@@ -279,7 +279,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    width: 1200px;
+    width: 1170px;
     margin: 70px auto 0 auto;
 }
 .category-card-items{
@@ -295,24 +295,24 @@
     align-items: center;
     padding-bottom: 11px;
     transition: 0.5s;
-    gap: 60px;
+    gap: 50px;
 }
 .category-text-1:hover{
     border-bottom: 3px dashed black;
 }
 .category-text-1 h2{
     color: rgb(54, 54, 54);
-    font-size: 23px;
+    font-size: 20px;
 }
 .category-text-1 h3{
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(39, 39, 39);
 }
 .category-text-2{
     display: flex;
     align-items: center;
     margin-top: 8px;
-    gap: 34px;
+    gap: 10px;
 }
 .category-text-2 p{
     font-size: 14px;
@@ -324,5 +324,248 @@
     border: none;
     color: green;
     font-weight: 600;
+    font-size: 12px;
+}
+/* About section code start here */
+.about-section{
+    width: 100%;
+    margin: 80px 0;
+}
+.about-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 1170px;
+    margin: 0 auto;
+}
+/* About img code start here   */
+.about-img img{
+    width: 600px;
+}
+/* About text code start here   */
+.about-text h4{
+    font-size: 17px;
+}
+.about-text h2{
+    font-size: 35px;
+    color: rgb(53, 53, 53);
+    margin: 5px 0 22px 0;
+}
+.about-text p{
+    font-size: 14px;
+    color: rgb(109, 108, 108);
+    font-weight: 600;
+}
+.about-button{
+    margin-top: 35px;
+    background-color: rgb(2, 151, 2);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.about-button:hover{
+    background-color: rgb(190, 190, 5);
+}
+/* selle section code start here */
+.selle-section{
+    width: 100%;
+    margin: 90px 0;
+}
+.seller-title{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.seller-title h2{
+    font-size: 34px;
+    color: rgb(39, 39, 39);
+    margin-top: 5px;
+}
+.seller-title p{
+    margin: 18px auto;
+    width: 450px;
     font-size: 15px;
+    color: rgb(109, 108, 108);
+    font-weight: 500;
+}
+/* selle card code start here */
+.selle-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 53px;
+    width: 1170px;
+    margin: 0 auto;
+}
+.selle-img img{
+    width: 230px;
+    border-radius: 15px;
+}
+.selle-text h3{
+    color: rgb(39, 39, 39);
+    margin: 10px 0;
+}
+.selle-text i{
+    color: goldenrod;
+    font-size: 12px;
+}
+.text-icon-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 30px 0;
+}
+.text h2{
+    font-size: 24px;
+}
+.icon-2 i{
+    font-size: 14px;
+    background-color: rgb(241, 218, 186);
+    color: green;
+    padding: 7px;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+.cart{
+    background-color: rgb(2, 95, 2);
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 0;
+    border: 1px solid gray;
+    border-radius: 30px;
+    width: 90%;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+.cart:hover{
+    background-color: yellowgreen;
+}
+/* Exclusive section code start here */
+.exclusive-section{
+    width: 100%;
+    margin: 90px 0 80px 0;
+    background-color: rgb(140, 235, 140);
+    padding: 90px 0;
+}
+.exclusive-title-parent{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.exclusive-title-parent h2{
+    font-size: 42px;
+    color: rgb(39, 39, 39);
+    margin-top: 5px;
+}
+.exclusive-title-parent p{
+    margin: 18px auto;
+    width: 510px;
+    font-size: 17px;
+    font-weight: 500;
+}
+/* exclusive card code start here */
+.exclusive-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    width: 1170px;
+    margin: 100px auto 0 auto;
+}
+/* exclusive img code start here */
+.exclusive-img img{
+    width: 280px;
+}
+.exclusive-img-2{
+    position: relative;
+}
+.exclusive-img-2 img{
+    width: 280px;
+}
+.exclusive-img-3{
+    position: relative;
+}
+.exclusive-img-3 img{
+    width: 550px;
+}
+.exclusive-img{
+    position: relative;
+}
+/* exclusive text code start here */
+.exclusive-text{
+    margin: auto;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+}
+.exclusive-text:hover{
+    opacity: 1;
+}
+.exclusive-text h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+.exclusive-text h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.exclusive-text h3{
+    font-weight: 400;
+}
+.exclusive-text h5{
+    font-size: 19px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+/* exclusive button code start here */
+.exclusive-button{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+.exclusive-button:hover{
+    background-color: rgb(134, 190, 21);
+}
+/* Testimonials section code start here */
+.testimonials-section{
+    width: 100%;
+    margin-bottom: 80px;
+}
+/* testimonials title code start here */
+.testimonials-title-parent{
+    text-align: center;
+}
+.testimonials-title-parent h2{
+    font-size: 30px;
+    color: rgb(36, 36, 36);
+    margin-bottom: 60px;
+}
+/* testimonials card code start here */
+.testimonials-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    width: 1170px;
+    margin: 0 auto;
+}
+.testimonials-items{
+    border: 1px solid rgb(216, 214, 214);
+    padding: 15px;
+}
+.testimonials-items q{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(29, 29, 29);
+}
+.testimonials-icon i{
+    margin: 10px 0;
+    color: goldenrod;
+    font-size: 13px;
 }

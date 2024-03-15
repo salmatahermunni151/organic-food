@@ -150,6 +150,83 @@
 .category-button{
     font-size: 10px;
 }
+/* About section code start here */
+.about-parent{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* About img code start here   */
+.about-img img{
+    width: 100%;
+}
+/* About text code start here   */
+.about-text{
+    margin-top: 35px;
+}
+.about-text h2{
+    font-size: 30px;
+}
+/* selle section responsive code start here */
+.seller-title p{
+    width: 90%;
+}
+/* selle responsive card code start here */
+.selle-parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+/* selle card code start here */
+.selle-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.selle-text{
+    margin-bottom: 40px;
+}
+/* Exclusive section responsive code start here */
+.exclusive-title-parent p{
+    margin: 18px auto;
+    width: 90%;
+}
+/* exclusive card responsive code start here */
+.exclusive-parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 40px;
+    margin: 100px auto 0 auto;
+}
+.exclusive-img img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.exclusive-img-2 img{
+    width: 100%;
+}
+.exclusive-img-3 img{
+    width: 100%;
+}
+/* exclusive text code start here  */
+.exclusive-text h5{
+    margin: 8px 0;
+}
+/* testimonials card code start here */
+.testimonials-parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 90%;
+    margin: 0 auto;
+}
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
     /* navbar responsive code start here */
@@ -292,6 +369,74 @@
 .category-button{
     font-size: 13px;
 }
+/* About section code start here */
+.about-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+/* About img code start here   */
+.about-img img{
+    width: 100%;
+}
+/* About text code start here   */
+.about-text h2{
+    font-size: 25px;
+}
+.about-text p{
+    font-size: 11px;
+}
+/* selle responsive card code start here */
+.selle-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+/* selle card code start here */
+.selle-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.selle-text{
+    margin-bottom: 40px;
+}
+/* Exclusive section responsive code start here */
+.exclusive-title-parent p{
+    margin: 18px auto;
+    width: 90%;
+}
+/* exclusive card responsive code start here */
+.exclusive-parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 40px;
+    margin: 100px auto 0 auto;
+}
+.exclusive-img img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.exclusive-img-2 img{
+    width: 100%;
+}
+.exclusive-img-3 img{
+    width: 100%;
+}
+/* testimonials card code start here */
+.testimonials-parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 90%;
+    margin: 0 auto;
+}
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
     /* navbar responsive code start here */
@@ -433,6 +578,90 @@
 .category-button{
     font-size: 11px;
 }
+/* About section code start here */
+.about-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+/* About img code start here   */
+.about-img img{
+    width: 100%;
+}
+/* About text code start here   */
+.about-text h2{
+    font-size: 35px;
+}
+.about-text p{
+    font-size: 14px;
+}
+/* selle responsive card code start here */
+.selle-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+/* selle card code start here */
+.selle-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.selle-text{
+    margin-bottom: 40px;
+}
+/* Exclusive section responsive code start here */
+.exclusive-title-parent p{
+    margin: 18px auto;
+    width: 90%;
+}
+/* exclusive card responsive code start here */
+.exclusive-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 0;
+    margin: 100px auto 0 auto;
+}
+.exclusive-img img{
+    width: 170px;
+}
+.exclusive-img-2 img{
+    width: 170px;
+}
+.exclusive-img-3 img{
+    width: 340px;
+}
+/* exclusive text code start here */
+.exclusive-text h4{
+    font-size: 12px;
+}
+.exclusive-text h2{
+    font-size: 15px;
+}
+.exclusive-text h3{
+    font-size: 12px;
+}
+.exclusive-text h5{
+    font-size: 15px;
+    margin: 8px 0;
+}
+.exclusive-button{
+    display: none;
+}
+/* testimonials card code start here */
+.testimonials-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    margin: 0 auto;
+}
 }
 @media screen and (min-width: 993px) and (max-width: 1200px) {
       /* navbar responsive code start here */
@@ -573,5 +802,82 @@
 }
 .category-button{
     font-size: 13px;
+}
+/* About section code start here */
+.about-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+/* About img code start here   */
+.about-img img{
+    width: 100%;
+}
+/* About text code start here   */
+.about-text h2{
+    font-size: 35px;
+}
+.about-text p{
+    font-size: 14px;
+}
+/* selle responsive card code start here */
+.selle-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+/* selle card code start here */
+.selle-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+/* exclusive card responsive code start here */
+.exclusive-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 0px;
+    margin: 100px auto 0 auto;
+    
+}
+.exclusive-img img{
+    width: 220px;
+}
+.exclusive-img-2 img{
+    width: 220px;
+}
+.exclusive-img-3 img{
+    width: 430px;
+}
+/* exclusive text code start here */
+.exclusive-text h4{
+    font-size: 12px;
+}
+.exclusive-text h2{
+    font-size: 15px;
+}
+.exclusive-text h3{
+    font-size: 12px;
+}
+.exclusive-text h5{
+    font-size: 15px;
+    margin: 8px 0;
+}
+.exclusive-button{
+    display: none;
+}
+/* testimonials card code start here */
+.testimonials-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    margin: 0 auto;
 }
 }
