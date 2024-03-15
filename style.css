@@ -118,7 +118,7 @@
 }
 /* Discount section code start here */
 .sec-1{
-    margin: 40px 0;
+    margin: 90px 0;
 }
 .discount-container{
     background-color: rgb(168, 212, 78);
@@ -190,7 +190,6 @@
     font-weight: 600;
     color: rgb(56, 56, 56);
  }
- /* end card code */
 /* start img code */
 .img-parent{
     display: grid;
@@ -198,15 +197,15 @@
     justify-content: center;
     width: 1200px;
     margin: 0 auto;
-    gap: 60px;
     margin-top: 60px;
+    gap: 75px;
 }
 .img-items{
     position: relative;
     transition: 0.5s;
 }
 .img-items img{
-    width: 360px;
+    width: 350px;
     border-radius: 20px;
 }
 .img-text{
@@ -231,4 +230,99 @@
     padding: 9px 28px;
     border-radius: 30px;
 }
-/* end img code */
+/* Category section code start here */
+.Category-section{
+    width: 100%;
+    margin: 90px 0;
+}
+/* title code start here */
+.title-ul-parent{
+    text-align: center;
+}
+.title-items h2{
+    font-size: 34px;
+    color: rgb(39, 39, 39);
+    margin-top: 5px;
+}
+.title-items p{
+    margin: 18px auto;
+    width: 450px;
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+    font-weight: 500;
+}
+/* ul code start here */
+.title-ul{
+    margin-top: 50px;
+}
+.title-ul ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.title-ul li{
+    list-style: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.meat{
+    background-color: rgb(2, 88, 2);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 30px;
+}
+/* category card code start here */
+.category-card-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 1200px;
+    margin: 70px auto 0 auto;
+}
+.category-card-items{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.category-img img{
+    width: 80px;
+}
+.category-text-1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 11px;
+    transition: 0.5s;
+    gap: 60px;
+}
+.category-text-1:hover{
+    border-bottom: 3px dashed black;
+}
+.category-text-1 h2{
+    color: rgb(54, 54, 54);
+    font-size: 23px;
+}
+.category-text-1 h3{
+    font-size: 25px;
+    color: rgb(39, 39, 39);
+}
+.category-text-2{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    gap: 34px;
+}
+.category-text-2 p{
+    font-size: 14px;
+    color: rgb(109, 108, 108);
+    font-weight: 600;
+}
+.category-button{
+    background-color: transparent;
+    border: none;
+    color: green;
+    font-weight: 600;
+    font-size: 15px;
+}
