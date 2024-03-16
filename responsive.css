@@ -227,6 +227,57 @@
     width: 90%;
     margin: 0 auto;
 }
+/* footer section code start here */
+.footer-section-1-parent{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+.footer-1-text h3{
+    font-size: 16px;
+}
+.footer-1-text p{
+    font-size: 11px;
+}
+/*footer section items-2 code start here */
+.footer-2-parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 30px 0;
+    gap: 30px;
+}
+.footer-2-items{
+    width: 100%;
+}
+.footer-2-icon i{
+    margin-right: 10px;
+    background-color: rgba(0, 255, 255, 0.301);
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/* footer card-3 code start here  */
+.footer-input-icon input{
+    width: 100%;
+    padding: 13px 20px;
+    margin-top: 20px;
+    border-radius: 17px;
+    border: 1px solid rgb(70, 69, 69);
+}
+.footer-input-icon i{
+   display: none;
+}
+/* footer section items-3 code start here  */
+.footer-3-items{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px 0 10px 0; 
+}
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
     /* navbar responsive code start here */
@@ -436,6 +487,55 @@
     grid-template-columns: repeat(1,1fr);
     width: 90%;
     margin: 0 auto;
+}
+/* footer section code start here */
+.footer-section-1-parent{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.footer-1-text h3{
+    font-size: 16px;
+}
+.footer-1-text p{
+    font-size: 11px;
+}
+/*footer section items-2 code start here */
+.footer-2-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 0;
+    gap: 30px;
+}
+.footer-2-items{
+    width: 100%;
+}
+.footer-2-icon i{
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/* footer card-3 code start here  */
+.footer-input-icon input{
+    width: 100%;
+    padding: 13px 20px;
+    margin-top: 20px;
+    border-radius: 17px;
+    border: 1px solid rgb(70, 69, 69);
+}
+.footer-input-icon i{
+   display: none;
+}
+/* footer section items-3 code start here  */
+.footer-3-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 20px 0 10px 0; 
 }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -662,6 +762,48 @@
     width: 90%;
     margin: 0 auto;
 }
+/* footer section code start here */
+.footer-section-1-parent{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-1-text h3{
+    font-size: 16px;
+}
+.footer-1-text p{
+    font-size: 11px;
+}
+/*footer section items-2 code start here */
+.footer-2-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 0;
+}
+.footer-2-items{
+    width: 80%;
+}
+.footer-2-icon i{
+    margin-right: 10px;
+    background-color: rgba(0, 255, 255, 0.301);
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/* footer card-3 code start here  */
+.footer-2-items-3{
+    display: none;
+}
+/* footer section items-3 code start here  */
+.footer-3-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+    margin: 20px 0 10px 0; 
+}
 }
 @media screen and (min-width: 993px) and (max-width: 1200px) {
       /* navbar responsive code start here */
@@ -879,5 +1021,43 @@
     grid-template-columns: repeat(3,1fr);
     width: 90%;
     margin: 0 auto;
+}
+/* footer section code start here */
+.footer-section-1-parent{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-1-text h3{
+    font-size: 16px;
+}
+.footer-1-text p{
+    font-size: 11px;
+}
+/*footer section items-2 code start here */
+.footer-2-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px 0;
+}
+.footer-2-items{
+    width: 80%;
+}
+.footer-2-icon i{
+    margin-right: 10px;
+    background-color: rgba(0, 255, 255, 0.301);
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/* footer section items-3 code start here  */
+.footer-3-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+    margin: 20px 0 10px 0; 
 }
 }

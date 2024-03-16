@@ -495,7 +495,7 @@
 .exclusive-text{
     margin: auto;
     position: absolute;
-    left: 40%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     color: #fff;
@@ -568,4 +568,124 @@
     margin: 10px 0;
     color: goldenrod;
     font-size: 13px;
+}
+/* footer section code start here */
+.footer-section{
+    background-image:linear-gradient(to right,rgb(1, 59, 1),rgb(4, 155, 4));
+    padding: 50px 60px 10px 60px;
+    color: #fff;
+}
+/* footer section one code start here */
+.footer-section-1-parent{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+/*  first card code start here */
+.footer-section-1-items{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer-1-icon i{
+    padding: 17px;
+    font-size: 20px;
+    color: green;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.footer-1-text h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-1-text p{
+    font-size: 14px;
+}
+hr{
+    border-bottom: none;
+}
+/* footer section items-2 code start here */
+.footer-2-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px 0;
+}
+.footer-2-parent h2{
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 500;
+}
+/* first card code start here */
+.footer-2-items{
+    width: 200px;
+}
+.footer-2-items h4{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.footer-2-items p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.footer-small-items-1{
+    margin-bottom: 14px;
+}
+.footer-small-items-2{
+    margin-top: 14px;
+}
+.hr-1{
+    margin: 20px 0;
+}
+/* second card code start here */
+.footer-2-items-2 ul li{
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+/* third card code start here  */
+.footer-2-items-3 p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.footer-2-icon i{
+    margin-right: 10px;
+    background-color: rgba(0, 255, 255, 0.301);
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.footer-2-icon i:nth-child(1){
+    padding: 8px 12px;
+}
+.footer-input-icon input{
+    width: 250px;
+    padding: 13px 20px;
+    margin-top: 20px;
+    border-radius: 17px;
+    border: 1px solid rgb(70, 69, 69);
+}
+.footer-input-icon i{
+    margin-left: -30px;
+    color: rgb(26, 25, 25);
+}
+/* footer section items-3 code start here  */
+.footer-3-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 190px;
+    margin: 20px 0 10px 0; 
+}
+.footer-3-items h2{
+    font-size: 29px;
+}
+.footer-3-items p{
+    font-size: 12px;
+}
+.footer-3-items h5{
+    font-size: 14px;
 }
