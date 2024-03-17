@@ -17,7 +17,7 @@
 .logo h2{
     font-size: 28px;
     font-weight: 700;
-    color: black;
+    color: #fff;
 }
 .nav-items ul{
     display: flex;
@@ -449,17 +449,16 @@
     padding: 90px 0;
 }
 .exclusive-title-parent{
-    margin-bottom: 60px;
+    width: 520px;
+    margin: 0 auto;
     text-align: center;
 }
 .exclusive-title-parent h2{
-    font-size: 42px;
+    font-size: 39px;
     color: rgb(39, 39, 39);
-    margin-top: 5px;
+    margin: 5px 0;
 }
 .exclusive-title-parent p{
-    margin: 18px auto;
-    width: 510px;
     font-size: 17px;
     font-weight: 500;
 }
@@ -495,9 +494,9 @@
 .exclusive-text{
     margin: auto;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    left: 45%;
+    top: 41%;
+    transform: translate(-40%,-40%);
     color: #fff;
     text-align: center;
     transition: 0.5s;
@@ -521,6 +520,7 @@
     font-size: 19px;
     font-weight: 400;
     margin: 20px 0;
+    color: aqua;
 }
 /* exclusive button code start here */
 .exclusive-button{
@@ -615,6 +615,9 @@ hr{
     font-size: 28px;
     font-weight: 500;
 }
+.hr-2{
+    border-bottom: none;
+}
 /* first card code start here */
 .footer-2-items{
     width: 200px;
@@ -636,6 +639,7 @@ hr{
     margin-top: 14px;
 }
 .hr-1{
+    border-bottom: none;
     margin: 20px 0;
 }
 /* second card code start here */
@@ -688,4 +692,7 @@ hr{
 }
 .footer-3-items h5{
     font-size: 14px;
+}
+.hr{
+    border-bottom: none;
 }
